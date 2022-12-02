@@ -38,16 +38,16 @@ with col3:
     Pot = st.number_input('Pottasium')
 
 with col1:
-    Hemo = st.text_input('Hemoglobin')
+    Hemo = st.number_input('Hemoglobin')
 
 with col2:
-    Wbcc = st.text_input('White Blood Cell Count')
+    Wbcc = st.number_input('White Blood Cell Count')
 
 with col3:
-    Rbcc = st.text_input('Red Blood Cell Count')
+    Rbcc = st.number_input('Red Blood Cell Count')
 
 with col1:
-    Htn = st.text_input('Hypertension')
+    Htn = st.number_input('Hypertension')
 
 
 # CODE FOR PREDICTION
